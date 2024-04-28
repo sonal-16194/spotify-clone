@@ -112,13 +112,13 @@ a {
     border-radius: 0.5rem ;
 }
 .first-line {
-    font-size:1rem;
+    font-size:0.85rem;
     font-weight: 700;
     height:2rem;
     margin: 0;
 }
 .second-line {
-    font-size:.85rem;
+    font-size:.7rem;
     font-weight: 400;
     height:1.5rem;
     margin: 0;
@@ -211,7 +211,8 @@ h2:hover {
 .card-title{
     font-size:0.9rem;
     font-weight: 700;
-    margin:0;    
+    margin:0; 
+    padding-bottom :10px;   
 }
 .card-info{
     margin:0;
@@ -280,6 +281,7 @@ h2:hover {
     justify-content: center;
     justify-items: center;
     margin-top:3rem;
+    font-weight: 900;
     
 }
 
@@ -389,5 +391,16 @@ h2:hover {
     margin-top: -1rem;
 }
 .controls{
-    display: flex;
+    /* display: flex;
+    justify-content:space-between; */
+    color:gray;
+   
+     
+}
+.controls i {
+    margin-right:7px;
+
+}
+#points {
+    width:50%
 }
